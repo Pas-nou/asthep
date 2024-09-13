@@ -1,0 +1,83 @@
+/* TODO ***** NAVBAR ***** */
+.topnav {
+    background-color: #AE9D7C;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100dvw;
+    height: 15dvh;
+}
+
+.topnav_img {
+    width: 98px;
+}
+
+.topnav_link:hover, .topnav_link:active {
+    color: #FFFFFF;
+}
+
+/* TODO *********************** */
+
+/* TODO ***** BURGER ICON ***** */
+button {
+    background: none;
+    border: none;
+}
+
+#topnav_hamburger_icon {
+    display: block;
+    position: relative;
+    margin: 16px;
+    width: 33px;
+    height: 28px;
+    /* z-index: 100; */
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
+  }
+
+  #topnav_hamburger_icon span {
+    display: block;
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    margin-bottom: 5px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    /* z-index: 100; */
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: 0.25s ease-in-out;
+    -moz-transition: 0.25s ease-in-out;
+    -o-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+  }
+
+   /* set the 3 spans position to look like a hamburger */
+   #topnav_hamburger_icon span:nth-child(1) {
+    top: 0px;
+    -webkit-transform-origin: left top;
+    -moz-transform-origin: left top;
+    -o-transform-origin: left top;
+    transform-origin: left top;
+  }
+
+  #topnav_hamburger_icon span:nth-child(2) {
+    top: 12px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+  }
+
+  #topnav_hamburger_icon span:nth-child(3) {
+    top: 24px;
+    -webkit-transform-origin: left bottom;
+    -moz-transform-origin: left bottom;
+    -o-transform-origin: left bottom;
+    transform-origin: left bottom;
+  }

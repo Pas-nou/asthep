@@ -1,4 +1,5 @@
-import Home from '../src/pages/Home.tsx'
+import { Outlet } from 'react-router-dom';
+import MenuBurger from './components/MenuBurger.tsx';
 
 import './App.css'
 
@@ -6,7 +7,8 @@ function App() {
 
   return (
     <main>
-      <Home />
+      <MenuBurger />
+      <Outlet />
     </main>
   )
 }

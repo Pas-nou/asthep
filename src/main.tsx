@@ -2,7 +2,7 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import App from './App.tsx';
+import Home from '../src/pages/Home.tsx';
 import Ticketing from '../src/pages/Ticketing.tsx';
 import Historic from '../src/pages/Historic.tsx';
 import Contact from '../src/pages/Contact.tsx';
@@ -12,7 +12,7 @@ import './index.css'
 const router = createBrowserRouter([
   {
     path : '/',
-    element : <App />
+    element : <Home />
   },
   {
     path : '/billetterie',
