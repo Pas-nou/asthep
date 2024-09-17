@@ -13,43 +13,52 @@ function MenuBurger() {
     }
 
     return (
-        <div id="topnav" className="topnav">
+        <div id="topnav" className={isMenuOpen ? "open" : ""}>
+            <section id="topnav_head" className={isMenuOpen ? "open" : ""}>
 
-            {/* Home link */}
-            <img src="../../public/Logo_asthep.png" alt="Logo ASTHEP" className="topnav_img" />
+                {/* Home link */}
+                <img src="../../public/Logo_asthep.png" alt="Logo ASTHEP" className="topnav_img" />
 
-            {/* Burger icone */}
-            <button
-                id="topnav_hamburger_icon"
-                className={isMenuOpen ? "open" : ""}
-                onClick={showResponsiveMenu}
-                aria-label="Menu burger"
-                aria-expanded={isMenuOpen}
-            >
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
+                {/* Burger icone */}
+                <button
+                    id="topnav_hamburger_icon"
+                    className={isMenuOpen ? "open" : ""}
+                    onClick={showResponsiveMenu}
+                    aria-label="Menu burger"
+                    aria-expanded={isMenuOpen}
+                >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </section>
 
             {/* Responsive menu, displayed or hidden depending on the state */}
-            {/* {isMenuOpen && (
-                <nav role="navigation" id="topnav_responsive_menu" className={`responsive_menu ${isMenuOpen ? "open" : ""}`}>
-                    <ul>
-                        <li>
-                            <NavLink className="topnav_link" to="/" onClick={showResponsiveMenu}>Accueil</NavLink>
-                        </li>
-                        <li>
-                            <NavLink className="topnav_link" to="/billetterie" onClick={showResponsiveMenu}>Billetterie</NavLink>
-                        </li>
-                        <li>
-                            <NavLink className="topnav_link" to="/historique" onClick={showResponsiveMenu}>Historique</NavLink>
-                        </li>
-                        <li>
-                            <NavLink className="topnav_link" to="/contact" onClick={showResponsiveMenu}>Contact</NavLink>
-                        </li>
-                    </ul>
-                </nav>
-            )} */}
+            {isMenuOpen && (
+                <section>
+                    <nav role="navigation" id="topnav_menu" className={isMenuOpen ? "open" : ""}>
+                        <ul>
+                            <li>
+                                <NavLink className="topnav_link" to="/" onClick={showResponsiveMenu}>Accueil</NavLink>
+                            </li>
+                            <li>
+                                <NavLink className="topnav_link" to="/billetterie" onClick={showResponsiveMenu}>Billetterie</NavLink>
+                            </li>
+                            <li>
+                                <NavLink className="topnav_link" to="/historique" onClick={showResponsiveMenu}>Historique</NavLink>
+                            </li>
+                            <li>
+                                <NavLink className="topnav_link" to="/contact" onClick={showResponsiveMenu}>Contact</NavLink>
+                            </li>
+                        </ul>
+                        <div className="topnav_social">
+                            <img src="../../public/Youtube.png" alt="Logo youtube" />
+                            <img src="../../public/instagram.png" alt="Logo Instagram" />
+                            <img src="../../public/facebook.png" alt="Logo Facebook" />
+                        </div>
+                    </nav>
+                </section>
+            )}
 
         </div>
     )
