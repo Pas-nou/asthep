@@ -71,10 +71,10 @@ function MenuBurger() {
                                 <img src="../../Youtube.png" alt="Logo youtube" />
                             </NavLink>
                             <NavLink to="/">
-                                <img src="../../instagram.png" alt="Logo Instagram" />
+                                <img src="../../Instagram.png" alt="Logo Instagram" />
                             </NavLink>
                             <NavLink to="/">
-                                <img src="../../facebook.png" alt="Logo Facebook" />
+                                <img src="../../Facebook.png" alt="Logo Facebook" />
                             </NavLink>
                         </section>
                         <p className="topnav_copyright_mobile">Copyright © 2024 - ASTHEP</p>
