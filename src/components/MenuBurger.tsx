@@ -19,16 +19,16 @@ function MenuBurger() {
 
                 {/* Home link */}
                 <div className="topnav_info_desktop">
-                    <img src="../../public/Logo_asthep.png" alt="Logo ASTHEP" className="topnav_img" />
+                    <img src="../../Logo_asthep.png" alt="Logo ASTHEP" className="topnav_img" />
                     <section className="topnav_social_desktop">
                             <NavLink to="/">
-                                <img src="../../public/Youtube_blanc.webp" alt="Logo youtube" />
+                                <img src="../../Youtube_blanc.webp" alt="Logo youtube" />
                             </NavLink>
                             <NavLink to="/">
-                                <img src="../../public/Instagram_blanc.webp" alt="Logo Instagram" />
+                                <img src="../../Instagram_blanc.webp" alt="Logo Instagram" />
                             </NavLink>
                             <NavLink to="/">
-                                <img src="../../public/Facebook_blanc.webp" alt="Logo Facebook" />
+                                <img src="../../Facebook_blanc.webp" alt="Logo Facebook" />
                             </NavLink>
                         </section>
                     <p className="topnav_copyright_desktop">Copyright © 2024 - ASTHEP</p>
@@ -68,13 +68,13 @@ function MenuBurger() {
                     <div className="topnav_infos_mobile">
                         <section className="topnav_social_mobile">
                             <NavLink to="/">
-                                <img src="../../public/Youtube.png" alt="Logo youtube" />
+                                <img src="../../Youtube.png" alt="Logo youtube" />
                             </NavLink>
                             <NavLink to="/">
-                                <img src="../../public/instagram.png" alt="Logo Instagram" />
+                                <img src="../../instagram.png" alt="Logo Instagram" />
                             </NavLink>
                             <NavLink to="/">
-                                <img src="../../public/facebook.png" alt="Logo Facebook" />
+                                <img src="../../facebook.png" alt="Logo Facebook" />
                             </NavLink>
                         </section>
                         <p className="topnav_copyright_mobile">Copyright © 2024 - ASTHEP</p>
