@@ -1,8 +1,8 @@
 function Home() {
     return (
-        <>
-            <h2>je suis sur la page d'accueil</h2>
-        </>
+        <div className="in-progess">
+            <h2>🚧 Site en cours de construction 🚧</h2>
+        </div>
     );
 };
 

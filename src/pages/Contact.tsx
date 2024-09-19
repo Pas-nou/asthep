@@ -1,8 +1,8 @@
 function Contact() {
     return (
-        <>
-            <h2>Je suis sur la page contact</h2>
-        </>
+        <div className="in-progess">
+            <h2>🚧 Site en cours de construction 🚧</h2>
+        </div>
     )
 };
 

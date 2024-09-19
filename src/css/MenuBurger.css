@@ -44,7 +44,7 @@
 @media screen and (min-width: 1024px) and (max-width: 1200px) and (orientation: landscape) {
   #topnav {
     height: 100dvh;
-    width: 15dvw;
+    width: 22dvw;
     transition: width 0.5s ease, transform 0.5s ease;
   }
 }
@@ -52,7 +52,7 @@
 @media screen and (min-width: 1201px) and (orientation: landscape) {
   #topnav {
     height: 100dvh;
-    width: 12dvw;
+    width: 18dvw;
     transition: width 0.5s ease, transform 0.5s ease;
   }
 }
@@ -130,11 +130,19 @@
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) and (max-width: 1439px) {
   #topnav_text {
     position: absolute;
     top: 10dvh;
     left: 2dvw;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  #topnav_text {
+    position: absolute;
+    top: 10dvh;
+    left: 3.5dvw;
   }
 }
 
