@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
 /* TODO ***** NAVBAR ***** */
- #topnav {
+#topnav {
   background-color: #AE9D7C;
   width: 100%;
   height: 20dvh;
+  overflow: hidden;
   transition: height 0.5s ease, transform 0.5s ease;
 }
 
@@ -55,7 +58,7 @@
 }
 
 #topnav.open {
-  height : 80dvh;
+  height: 80dvh;
   transform: translateY(0);
 }
 
@@ -113,19 +116,47 @@
 
 /* TODO *********************** */
 
-#topnav_menu{
+#topnav_text {
+  display: flex;
+  align-content: space-between;
+  justify-content: center;
+  height: 74%;
+  transform-origin: 0% 0%;
+}
+
+@media screen and (min-width: 321px) and (orientation: portrait) {
+  #topnav_text {
+    height: 80%;
+  }
+}
+
+#topnav_menu {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
-  gap: 20px;
-  transition: height 0.5s ease, transform 0.5s ease;
+  gap: 10px;
+}
+
+@media screen and (min-width: 321px) and (orientation: portrait) {
+  #topnav_menu {
+    gap: 15px;
+  }
 }
 
 ul {
   list-style: none;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media screen and (min-width: 321px) and (orientation: portrait) {
+  ul {
+    gap: 50px;
+  }
 }
 
 .topnav_link {
@@ -134,15 +165,30 @@ ul {
   color: #000000;
   cursor: pointer;
   transform: translateY(0);
+  font-family: "Righteous", sans-serif;
+  transition: color 0.3s ease;
 }
 
-.topnav_link:active {
+.topnav_link.active {
   color: #FFFFFF;
+}
+
+.topnav_infos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
 .topnav_social {
   display: flex;
-  gap: 20px;
+  gap: 10px;
+}
+
+.topnav_copyright {
+  color: #FFFFFF;
+  font-family: "Righteous", sans-serif;
+  font-size: 11px;
 }
 
 
@@ -161,7 +207,7 @@ button {
   -webkit-user-select: none;
   user-select: none;
   cursor: pointer;
-  
+
 }
 
 /* definition of the 3 spans style */

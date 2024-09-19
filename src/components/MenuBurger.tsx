@@ -34,31 +34,34 @@ function MenuBurger() {
             </section>
 
             {/* Responsive menu, displayed or hidden depending on the state */}
-            {isMenuOpen && (
-                <section>
-                    <nav role="navigation" id="topnav_menu" className={isMenuOpen ? "open" : ""}>
-                        <ul>
-                            <li>
-                                <NavLink className="topnav_link" to="/" onClick={showResponsiveMenu}>Accueil</NavLink>
-                            </li>
-                            <li>
-                                <NavLink className="topnav_link" to="/billetterie" onClick={showResponsiveMenu}>Billetterie</NavLink>
-                            </li>
-                            <li>
-                                <NavLink className="topnav_link" to="/historique" onClick={showResponsiveMenu}>Historique</NavLink>
-                            </li>
-                            <li>
-                                <NavLink className="topnav_link" to="/contact" onClick={showResponsiveMenu}>Contact</NavLink>
-                            </li>
-                        </ul>
-                        <div className="topnav_social">
+            {/* {isMenuOpen && ( */}
+            <section id="topnav_text" className={isMenuOpen ? "open" : ""}>
+                <nav role="navigation" id="topnav_menu" className={isMenuOpen ? "open" : ""}>
+                    <ul>
+                        <li>
+                            <NavLink className={({ isActive }) => (isActive ? "topnav_link active" : "topnav_link")} to="/" onClick={showResponsiveMenu}>Accueil</NavLink>
+                        </li>
+                        <li>
+                            <NavLink className={({ isActive }) => (isActive ? "topnav_link active" : "topnav_link")} to="/billetterie" onClick={showResponsiveMenu}>Billetterie</NavLink>
+                        </li>
+                        <li>
+                            <NavLink className={({ isActive }) => (isActive ? "topnav_link active" : "topnav_link")} to="/historique" onClick={showResponsiveMenu}>Historique</NavLink>
+                        </li>
+                        <li>
+                            <NavLink className={({ isActive }) => (isActive ? "topnav_link active" : "topnav_link")} to="/contact" onClick={showResponsiveMenu}>Contact</NavLink>
+                        </li>
+                    </ul>
+                    <div className="topnav_infos">
+                        <section className="topnav_social">
                             <img src="../../public/Youtube.png" alt="Logo youtube" />
                             <img src="../../public/instagram.png" alt="Logo Instagram" />
                             <img src="../../public/facebook.png" alt="Logo Facebook" />
-                        </div>
-                    </nav>
-                </section>
-            )}
+                        </section>
+                        <p className="topnav_copyright">Copyright © 2024 - ASTHEP</p>
+                    </div>
+                </nav>
+            </section>
+            {/* )} */}
 
         </div>
     )
