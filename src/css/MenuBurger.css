@@ -44,7 +44,7 @@
 @media screen and (min-width: 1024px) and (max-width: 1200px) and (orientation: landscape) {
   #topnav {
     height: 100dvh;
-    width: 10dvw;
+    width: 15dvw;
     transition: width 0.5s ease, transform 0.5s ease;
   }
 }
@@ -52,7 +52,7 @@
 @media screen and (min-width: 1201px) and (orientation: landscape) {
   #topnav {
     height: 100dvh;
-    width: 5dvw;
+    width: 12dvw;
     transition: width 0.5s ease, transform 0.5s ease;
   }
 }
@@ -65,7 +65,7 @@
 @media screen and (min-width: 992px) {
   #topnav.open {
     height: 100dvh;
-    width: 15dvw;
+    width: 100%vw;
     transform: translateX(0)
   }
 }
@@ -130,6 +130,14 @@
   }
 }
 
+@media screen and (min-width: 992px) {
+  #topnav_text {
+    position: absolute;
+    top: 10dvh;
+    left: 2dvw;
+  }
+}
+
 #topnav_menu {
   display: flex;
   flex-direction: column;
@@ -159,6 +167,12 @@ ul {
   }
 }
 
+@media screen and (min-width: 992px) {
+  ul {
+    gap: 50px;
+  }
+}
+
 .topnav_link {
   font-size: 30px;
   text-decoration: none;
@@ -173,22 +187,66 @@ ul {
   color: #FFFFFF;
 }
 
-.topnav_infos {
+.topnav_infos_mobile {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
 }
 
-.topnav_social {
+@media screen and (min-width: 992px) {
+  .topnav_infos_mobile {
+    display: none;
+  }
+}
+
+.topnav_info_desktop{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.topnav_social_mobile {
   display: flex;
   gap: 10px;
 }
 
-.topnav_copyright {
+.topnav_social_desktop {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .topnav_social_desktop {
+    display: flex;
+    gap: 10px;
+  }
+}
+
+.topnav_copyright_mobile {
   color: #FFFFFF;
   font-family: "Righteous", sans-serif;
   font-size: 11px;
+}
+
+/* @media screen and (min-width: 992px) {
+  #topnav_copyright_mobile {
+    display: none;
+  }
+} */
+
+.topnav_copyright_desktop {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .topnav_copyright_desktop {
+    display: block;
+    color: #FFFFFF;
+    font-family: "Righteous", sans-serif;
+    font-size: 11px;
+  }
 }
 
 
@@ -207,7 +265,12 @@ button {
   -webkit-user-select: none;
   user-select: none;
   cursor: pointer;
+}
 
+@media screen and (min-width: 992px) {
+  #topnav_hamburger_icon {
+    display: none;
+  }
 }
 
 /* definition of the 3 spans style */

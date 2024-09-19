@@ -6,7 +6,7 @@ import './App.css'
 function App() {
 
   return (
-    <main>
+    <main className='view_screen'>
       <MenuBurger />
       <Outlet />
     </main>
