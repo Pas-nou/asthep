@@ -71,7 +71,7 @@ function MenuBurger() {
                                 <img src="../../Youtube.png" alt="Logo youtube" />
                             </NavLink>
                             <NavLink to="/">
-                                <img src="../../Instagram.png" alt="Logo Instagram" />
+                                <img src="Instagram.png" alt="Logo Instagram" />
                             </NavLink>
                             <NavLink to="/">
                                 <img src="../../Facebook.png" alt="Logo Facebook" />
