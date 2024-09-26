@@ -1,0 +1,198 @@
+.contact_container {
+    width: 100dvw;
+    height: 80dvh;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_title {
+    text-align: center;
+    font-size: 28px;
+    background-color: #AE9D7C;
+    border: solid 10px white;
+}
+
+.contact_reservation {
+    width: 100dvw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact_label {
+    display: none;
+}
+
+.contact_input {
+    border-radius: 5px;
+    border: solid 2px #AE9D7C;
+    height: 30px;
+    width: 80dvw;
+    font-family: "Righteous", sans-serif;
+}
+
+.contact_input::placeholder {
+    font-family: "Righteous", sans-serif;
+    color: black;
+}
+
+.contact_textaera {
+    resize: none;
+    border-radius: 5px;
+    border: solid 2px #AE9D7C;
+    width: 80dvw;
+    font-family: "Righteous", sans-serif;
+}
+
+.contact_textaera::placeholder {
+    font-family: "Righteous", sans-serif;
+    color: black;
+}
+
+.contact_button {
+    border-radius: 5px;
+    background-color: #AE9D7C;
+    font-size: 36px;
+    width: 50dvw;
+    font-family: "Righteous", sans-serif;
+    color: white;
+}
+
+.contact_button:hover {
+    border-radius: 5px;
+    background-color: #AE9D7C;
+    font-size: 36px;
+    width: 50dvw;
+    font-family: "Righteous", sans-serif;
+    color: black;
+}
+
+@media screen and (min-width: 321px) and (max-width : 767px) and (orientation: portrait) {
+    .contact_container {
+        gap: 30px;
+    }
+    
+    .contact_input {
+        height: 40px;
+    }
+
+    .contact_textaera {
+        height: 150px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width : 991px) and (orientation: portrait) {
+    .contact_container {
+        gap: 150px;
+    }
+    
+    .contact_input {
+        height: 40px;
+        width: 50dvw;
+    }
+
+    .contact_textaera {
+        height: 150px;
+        width: 50dvw;
+    }
+  }
+
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+    .contact_container {
+        width: 82dvw;
+        position: absolute;
+        right: 0;
+    }
+
+    .contact_title {
+        width: 82dvw;
+        position: fixed;
+        z-index: 1;
+        border: solid 10px white;
+    }
+
+    .contact_reservation {
+        width: 100%;
+        position: absolute;
+        top: 100px;
+    }
+
+    .contact_input {
+        height: 40px;
+        width: 50dvw;
+    }
+
+    .contact_textaera {
+        height: 150px;
+        width: 50dvw;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .contact_container {
+        width: 82dvw;
+        position: absolute;
+        right: 0;
+    }
+
+    .contact_title {
+        width: 82dvw;
+        position: fixed;
+        z-index: 1;
+        border: solid 10px white;
+    }
+
+    .contact_reservation {
+        width: 100%;
+        position: absolute;
+        top: 150px;
+    }
+
+    .contact_input {
+        height: 40px;
+        width: 50dvw;
+    }
+
+    .contact_textaera {
+        height: 150px;
+        width: 50dvw;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .contact_container {
+        width: 82dvw;
+        position: absolute;
+        right: 0;
+
+    }
+
+    .contact_title {
+        width: 82%;
+        position: fixed;
+        right: -1.5px;
+        z-index: 1;
+        border: solid 10px white;
+    }
+
+    .contact_reservation {
+        width: 100%;
+        position: absolute;
+        top: 150px;
+    }
+
+    .contact_input {
+        height: 40px;
+        width: 20dvw;
+    }
+
+    .contact_textaera {
+        height: 350px;
+        width: 20dvw;
+    }
+
+    .contact_button {
+        width: 10dvw;
+    }
+}

@@ -53,14 +53,7 @@
     width: 82dvw;
     position: absolute;
     right: 0;
-    /* width: 82dvw;
-    border: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 10px;
-    position: absolute;
-    right: 0; */
+
   }
 
   .ticketing_title {
@@ -75,5 +68,10 @@
     width: 100%;
     position: absolute;
     top: 20px;
+  }
+
+  section#shop {
+    overflow-y: scroll;
+    height: 780px;
   }
 }
