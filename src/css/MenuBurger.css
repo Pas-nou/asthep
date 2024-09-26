@@ -36,20 +36,20 @@
 @media screen and (min-width: 992px) and (max-width: 1024px) and (orientation: landscape) {
   #topnav {
     height: 100dvh;
-    width: 10dvw;
+    width: 18dvw;
     transition: width 0.5s ease, transform 0.5s ease;
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1200px) and (orientation: landscape) {
+@media screen and (min-width: 1025px) and (max-width: 1200px) and (orientation: landscape) {
   #topnav {
     height: 100dvh;
-    width: 22dvw;
+    width: 18dvw;
     transition: width 0.5s ease, transform 0.5s ease;
   }
 }
 
-@media screen and (min-width: 1201px) and (orientation: landscape) {
+@media screen and (min-width: 1201px) {
   #topnav {
     height: 100dvh;
     width: 18dvw;
@@ -142,7 +142,7 @@
   #topnav_text {
     position: absolute;
     top: 10dvh;
-    left: 3.5dvw;
+    left: 5dvw;
   }
 }
 

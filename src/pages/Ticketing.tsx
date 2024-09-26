@@ -1,9 +1,38 @@
+import { useEffect } from 'react';
+
+import "../css/Ticketing.css"
+
 function Ticketing() {
+
+    // Test d'un useEffect sur l'intégration via BilletWeb
+    useEffect(() => {
+        const script = document.createElement("script");
+        script.src = "https://www.billetweb.fr/js/export.js";
+        script.async = true;
+        document.body.appendChild(script);
+
+        // Nettoyage lors du démontage
+        return () => {
+            document.body.removeChild(script);
+        };
+    }, []);
+
     return (
-        <div className="in-progess">
-            {/* <h2>🚧 Site en cours de construction 🚧</h2> */}
-            <a title="Vente de billets en ligne" href="https://www.billetweb.fr/shop.php?event=piece-theatre2"  className="shop_frame"  target="_blank"  data-src="https://www.billetweb.fr/shop.php?event=piece-theatre2"  data-max-width="100%"  data-initial-height="600" data-scrolling="no"  data-id="piece-theatre2"  data-resize="1">Vente de billets en ligne</a>
-            <script type="text/javascript" src="https://www.billetweb.fr/js/export.js"></script>
+        <div className="ticketing_container">
+            <h2 className='ticketing_title'>Votre réservation</h2>
+            <section className='ticketing_reservation'>
+                <a
+                    title='Vente de billet en ligne'
+                    href="https://www.billetweb.fr/shop.php?event=piece-theatre2"
+                    className='shop_frame'
+                    target='blank'
+                    data-src="https://www.billetweb.fr/shop.php?event=piece-theatre2"
+                    data-max-width="90%"
+                    data-initial-height="600"
+                    data-scrolling="no"
+                    data-id="piece-theatre2"
+                    data-resize="1" />
+            </section>
         </div>
     )
 };
