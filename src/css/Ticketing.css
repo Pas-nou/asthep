@@ -1,0 +1,37 @@
+
+.ticketing_title {
+  text-align: center;
+  font-size: 30px;
+  background-color: #AE9D7C;
+  border: solid 10px white;
+}
+
+@media screen and (min-width: 992px) {
+  .ticketing_container {
+    width: 80dvw;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+    position: absolute;
+    right: 0;
+  }
+
+  .ticketing_title {
+    font-size: 36px;
+    background-color: #AE9D7C;
+    width: 80%;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+    border: solid 10px white;
+  }
+
+  .ticketing_reservation {
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    /* overflow-y: scroll; */
+  }
+}

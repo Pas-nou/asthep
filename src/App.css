@@ -5,13 +5,16 @@
     margin: 0;
 }
 
-body {
+/* body {
     overflow: hidden;
-}
+} */
 
 @media screen and (min-width: 992px) {
     .view_screen {
         display: flex;
+    }
+    .view_screen_navbar{
+        position: fixed;
     }
 }
 

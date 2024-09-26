@@ -7,7 +7,9 @@ function App() {
 
   return (
     <main className='view_screen'>
+      <nav className='view_screen_navbar'>
       <MenuBurger />
+      </nav>
       <Outlet />
     </main>
   )
