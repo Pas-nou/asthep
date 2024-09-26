@@ -6,23 +6,15 @@
   border: solid 10px white;
 }
 
-@media screen and (min-width: 992px) {
-  .ticketing_container {
-    width: 80dvw;
-    border: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 10px;
+@media screen and (min-width: 992px) and (max-width: 1024px){
+  .ticketing_container{
+    width: 82dvw;
     position: absolute;
     right: 0;
   }
-
-  .ticketing_title {
-    font-size: 36px;
-    background-color: #AE9D7C;
-    width: 80%;
-    text-align: center;
+  
+  .ticketing_title{
+    width: 82dvw;
     position: fixed;
     z-index: 1;
     border: solid 10px white;
@@ -32,6 +24,56 @@
     width: 100%;
     position: absolute;
     top: 20px;
-    /* overflow-y: scroll; */
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+  .ticketing_container{
+    width: 82dvw;
+    position: absolute;
+    right: 0;
+  }
+  
+  .ticketing_title{
+    width: 82dvw;
+    position: fixed;
+    z-index: 1;
+    border: solid 10px white;
+  }
+
+  .ticketing_reservation {
+    width: 100%;
+    position: absolute;
+    top: 20px;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .ticketing_container {
+    width: 82dvw;
+    position: absolute;
+    right: 0;
+    /* width: 82dvw;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+    position: absolute;
+    right: 0; */
+  }
+
+  .ticketing_title {
+    width: 82%;
+    position: fixed;
+    right: -1.5px;
+    z-index: 1;
+    border: solid 10px white;
+  }
+
+  .ticketing_reservation {
+    width: 100%;
+    position: absolute;
+    top: 20px;
   }
 }

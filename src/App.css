@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
+/* * Global CSS */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -17,6 +19,27 @@
         position: fixed;
     }
 }
+
+/* * Scrollbar style */
+
+::-webkit-scrollbar {
+    width: 8px;
+    z-index: 1;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: none;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
 
 /* ** IN PROGRESS */
 

@@ -10,7 +10,9 @@ function App() {
       <nav className='view_screen_navbar'>
       <MenuBurger />
       </nav>
+      {/* <section className='scrollable-container'> */}
       <Outlet />
+      {/* </section> */}
     </main>
   )
 }
