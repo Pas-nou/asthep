@@ -23,10 +23,10 @@ function Ticketing() {
             <section className='ticketing_reservation'>
                 <a
                     title='Vente de billet en ligne'
-                    href="https://www.billetweb.fr/shop.php?event=piece-theatre2"
+                    href="https://www.billetweb.fr/shop.php?event=theatre-poiteviniere"
                     className='shop_frame'
                     target='blank'
-                    data-src="https://www.billetweb.fr/shop.php?event=piece-theatre2"
+                    data-src="https://www.billetweb.fr/shop.php?event=theatre-poiteviniere"
                     data-max-width="90%"
                     data-initial-height="600"
                     data-scrolling="no"
