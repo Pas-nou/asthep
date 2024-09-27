@@ -30,7 +30,7 @@ function Ticketing() {
                     data-max-width="90%"
                     data-initial-height="600"
                     data-scrolling="no"
-                    data-id="piece-theatre2"
+                    data-id="theatre-poiteviniere"
                     data-resize="1" />
             </section>
         </div>
