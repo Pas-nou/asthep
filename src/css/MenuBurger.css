@@ -4,7 +4,7 @@
 #topnav {
   background-color: #AE9D7C;
   width: 100%;
-  height: 20dvh;
+  height: 90px;
   overflow: hidden;
   transition: height 0.5s ease, transform 0.5s ease;
 }
@@ -65,7 +65,7 @@
 @media screen and (min-width: 992px) {
   #topnav.open {
     height: 100dvh;
-    width: 100%vw;
+    /* width: 100dvw; */
     transform: translateX(0)
   }
 }
