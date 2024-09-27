@@ -1,10 +1,37 @@
+import { useRef } from 'react';
+import emailjs from 'emailjs-com';
+
 import '../css/Contact.css'
 
 function Contact() {
+
+    const form = useRef<HTMLFormElement>(null);
+
+    const sendEmail = (e : any) => {
+        e.preventDefault();
+    
+        emailjs.sendForm(
+            `${import.meta.env.VITE_APP_EMAILJS_SERVICE_ID}`, 
+            `${import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID}`, 
+            form.current!, 
+            `${import.meta.env.VITE_APP_EMAILJS_USER_ID}`)
+
+          .then((result) => {
+              console.log(result.text);
+              alert('Email envoyé avec succès!');
+          }, (error) => {
+              console.log(error.text);
+              alert('Une erreur s\'est produite, veuillez réessayer.');
+          });
+      };
+
     return (
         <div className="contact_container">
             <h2 className='contact_title'>Formulaire de contact</h2>
-            <form className='contact_reservation'>
+            <form 
+            ref={form}
+            onSubmit={sendEmail}
+            className='contact_reservation'>
                 <label
                     htmlFor="firstname"
                     className='contact_label'

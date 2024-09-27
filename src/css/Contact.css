@@ -195,4 +195,8 @@
     .contact_button {
         width: 10dvw;
     }
+
+    .contact_button:hover {
+        width: 10dvw
+    }
 }
