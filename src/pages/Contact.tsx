@@ -91,7 +91,7 @@ function Contact() {
                     id="message"
                     placeholder='votre message'
                     required />
-                <button className='contact_button'>Envoyer</button>
+                <button type='submit' className='contact_button'>Envoyer</button>
             </form>
         </div>
     )

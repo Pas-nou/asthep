@@ -50,14 +50,14 @@
 
 @media screen and (min-width: 1201px) {
   .ticketing_container {
-    width: 82dvw;
+    width: 88dvw;
     position: absolute;
     right: 0;
 
   }
 
   .ticketing_title {
-    width: 82%;
+    width: 88%;
     position: fixed;
     right: -1.5px;
     z-index: 1;

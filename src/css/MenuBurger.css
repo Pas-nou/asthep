@@ -52,7 +52,7 @@
 @media screen and (min-width: 1201px) {
   #topnav {
     height: 100dvh;
-    width: 18dvw;
+    width: 12dvw;
     transition: width 0.5s ease, transform 0.5s ease;
   }
 }
@@ -142,7 +142,7 @@
   #topnav_text {
     position: absolute;
     top: 10dvh;
-    left: 5dvw;
+    left: 2dvw;
   }
 }
 
