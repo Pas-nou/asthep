@@ -25,7 +25,8 @@ function Ticketing() {
                     title='Vente de billet en ligne'
                     href="https://www.billetweb.fr/shop.php?event=theatre-poiteviniere"
                     className='shop_frame'
-                    target='blank'
+                    target='_blank'
+                    rel='noopener noreferrer'
                     data-src="https://www.billetweb.fr/shop.php?event=theatre-poiteviniere"
                     data-max-width="90%"
                     data-initial-height="600"

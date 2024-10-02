@@ -32,18 +32,6 @@ const router = createBrowserRouter([
         element : <Contact />
       },
     ]
-  // },
-  // {
-  //   path : '/billetterie',
-  //   element : <Ticketing />
-  // },
-  // {
-  //   path : '/historique',
-  //   element : <Historic />
-  // },
-  // {
-  //   path : '/contact',
-  //   element : <Contact />
   },
 ])
 

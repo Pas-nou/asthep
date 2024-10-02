@@ -58,9 +58,9 @@ function MenuBurger() {
                         <li>
                             <NavLink className={({ isActive }) => (isActive ? "topnav_link active" : "topnav_link")} to="/billetterie" onClick={showResponsiveMenu}>Billetterie</NavLink>
                         </li>
-                        <li>
+                        {/* <li>
                             <NavLink className={({ isActive }) => (isActive ? "topnav_link active" : "topnav_link")} to="/historique" onClick={showResponsiveMenu}>Historique</NavLink>
-                        </li>
+                        </li> */}
                         <li>
                             <NavLink className={({ isActive }) => (isActive ? "topnav_link active" : "topnav_link")} to="/contact" onClick={showResponsiveMenu}>Contact</NavLink>
                         </li>

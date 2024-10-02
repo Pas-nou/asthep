@@ -1,0 +1,10 @@
+/* Variables */
+:root {
+    --bg-color: #AE9D7C;
+    --transition-ease: 0.5s ease;
+    --text-color: #000000;
+    --active-color: #FFFFFF;
+    --font-family: "Righteous", sans-serif;
+    --hamburger-size: 33px;
+    --span-height: 5px;
+  }
