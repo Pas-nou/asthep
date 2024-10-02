@@ -29,9 +29,9 @@ function Home() {
         slidesToShow: 1,
         slidesToScroll: 1,
         adaptativeHeight: true,
-        // autoplay: true,
-        // autoplaySpeed: 4000,
-        // pauseOnHover: true,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        pauseOnHover: true,
     }
     return (
         <section className="home_container">
