@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 .ticketing_title {
   text-align: center;
   font-size: 30px;
+  font-family: "Righteous", sans-serif;
   background-color: #AE9D7C;
   border: solid 10px white;
 }

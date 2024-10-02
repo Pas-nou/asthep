@@ -8,6 +8,7 @@
 .contact_title {
     text-align: center;
     font-size: 28px;
+    font-family: "Righteous", sans-serif;
     background-color: #AE9D7C;
     border: solid 10px white;
 }
@@ -162,14 +163,14 @@
 
 @media screen and (min-width: 1201px) {
     .contact_container {
-        width: 82dvw;
+        width: 88dvw;
         position: absolute;
         right: 0;
 
     }
 
     .contact_title {
-        width: 82%;
+        width: 88%;
         position: fixed;
         right: -1.5px;
         z-index: 1;
