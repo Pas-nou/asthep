@@ -10,6 +10,7 @@ function Home() {
 
     type Settings = {
         dots: boolean;
+        lazyload: boolean;
         infinite: boolean;
         speed: number;
         slidesToShow: number;
@@ -22,14 +23,15 @@ function Home() {
 
     const settings: Settings = {
         dots: true,
+        lazyload: true,
         infinite: true,
         speed: 1500,
         slidesToShow: 1,
         slidesToScroll: 1,
         adaptativeHeight: true,
-        autoplay: true,
-        autoplaySpeed: 4000,
-        pauseOnHover: true,
+        // autoplay: true,
+        // autoplaySpeed: 4000,
+        // pauseOnHover: true,
     }
     return (
         <section className="home_container">
@@ -48,7 +50,8 @@ function Home() {
                         </div>
                         <NavLink className="slide_button_1" to="/billetterie">Réservez vos places</NavLink>
                     </div>
-                    <img className="slide_image_1" src="../../public/Affiche_fleur_ruines.jpg" alt="Affiche de la pièce de théâtre 'Une fleur sur les ruines'" />
+                    <img className="slide_image_1 slide_image_desktop" src="../../public/Affiche_fleur_ruines.jpg" alt="Affiche de la pièce de théâtre 'Une fleur sur les ruines'" />
+                    <img className="slide_image_1 slide_image_mobile" src="../../public/Affiche_web_mobile.png" alt="Affiche de la pièce de théâtre 'Une fleur sur les ruines'" />
                 </article>
                 <article className="slide_container slide_container_2">
                     <div className="slide_text_container">
