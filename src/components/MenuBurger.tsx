@@ -19,18 +19,20 @@ function MenuBurger() {
 
                 {/* Home link */}
                 <div className="topnav_info_desktop">
-                    <img src="../../Logo_asthep.png" alt="Logo ASTHEP" className="topnav_img" />
+                    <NavLink to="/">
+                        <img src="../../Logo_asthep.png" alt="Logo ASTHEP" className="topnav_img" />
+                    </NavLink>
                     <section className="topnav_social_desktop">
-                            <NavLink to="/">
-                                <img src="../../Youtube_blanc.webp" alt="Logo youtube" />
-                            </NavLink>
-                            <NavLink to="/">
-                                <img src="../../Instagram_blanc.webp" alt="Logo Instagram" />
-                            </NavLink>
-                            <NavLink to="/">
-                                <img src="../../Facebook_blanc.webp" alt="Logo Facebook" />
-                            </NavLink>
-                        </section>
+                        <NavLink to="/">
+                            <img src="../../Youtube_blanc.webp" alt="Logo youtube" />
+                        </NavLink>
+                        <NavLink to="/">
+                            <img src="../../Instagram_blanc.webp" alt="Logo Instagram" />
+                        </NavLink>
+                        <NavLink to="/">
+                            <img src="../../Facebook_blanc.webp" alt="Logo Facebook" />
+                        </NavLink>
+                    </section>
                     <p className="topnav_copyright_desktop">Copyright © 2024 - ASTHEP</p>
                 </div>
 
