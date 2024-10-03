@@ -1,3 +1,8 @@
+.slick-track {
+    display: flex;
+    gap: 5px; /* Définit un espace de 15px entre les slides */
+  }
+    
     .home_container {
         max-width: 88%;
         max-height: 100%;

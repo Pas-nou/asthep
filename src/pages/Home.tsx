@@ -10,12 +10,10 @@ function Home() {
 
     type Settings = {
         dots: boolean;
-        lazyload: boolean;
         infinite: boolean;
         speed: number;
         slidesToShow: number;
         slidesToScroll: number;
-        adaptativeHeight: boolean;
         autoplay: boolean;
         autoplaySpeed: number;
         pauseOnHover: boolean;
@@ -23,12 +21,10 @@ function Home() {
 
     const settings: Settings = {
         dots: true,
-        lazyload: true,
         infinite: true,
         speed: 1500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        adaptativeHeight: true,
         autoplay: true,
         autoplaySpeed: 4000,
         pauseOnHover: true,
