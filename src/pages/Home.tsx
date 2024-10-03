@@ -50,8 +50,8 @@ function Home() {
                         </div>
                         <NavLink className="slide_button_1" to="/billetterie">Réservez vos places</NavLink>
                     </div>
-                    <img className="slide_image_1 slide_image_desktop" src="../../Affiche_fleur_ruines.jpg" alt="Affiche de la pièce de théâtre 'Une fleur sur les ruines'" />
-                    <img className="slide_image_1 slide_image_mobile" src="../../Affiche_web_mobile.png" alt="Affiche de la pièce de théâtre 'Une fleur sur les ruines'" />
+                    <img className="slide_image_1 slide_image_desktop" src="../../Affiche_web.webp" alt="Affiche de la pièce de théâtre 'Une fleur sur les ruines'" />
+                    <img className="slide_image_1 slide_image_mobile" src="../../Affiche_web_mobile.webp" alt="Affiche de la pièce de théâtre 'Une fleur sur les ruines'" />
                 </article>
                 <article className="slide_container slide_container_2">
                     <div className="slide_text_container">
@@ -66,7 +66,7 @@ function Home() {
                             <p className="slide_text slide_text_2">et plein d'autres choses à venir ! </p>
                         </div>
                     </div>
-                    <img className="slide_image_2" src="../../Logo_asthep.png" alt="Logo de la troupe de l'ASTHEP" />
+                    <img className="slide_image_2" src="../../Logo_asthep.webp" alt="Logo de la troupe de l'ASTHEP" />
                 </article>
             </Slider>
         </section >
