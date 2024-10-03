@@ -20,7 +20,7 @@ function MenuBurger() {
                 {/* Home link */}
                 <div className="topnav_info_desktop">
                     <NavLink to="/">
-                        <img src="../../Logo_asthep.png" alt="Logo ASTHEP" className="topnav_img" />
+                        <img src="../../Logo_asthep.webp" alt="Logo ASTHEP" className="topnav_img" />
                     </NavLink>
                     <section className="topnav_social_desktop">
                         <NavLink to="/">
