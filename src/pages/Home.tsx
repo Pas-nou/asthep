@@ -10,10 +10,8 @@ function Home() {
 
     type Settings = {
         dots: boolean;
-        // lazyLoad: boolean;
         infinite: boolean;
         speed: number;
-        lazyLoad: boolean;
         slidesToShow: number;
         slidesToScroll: number;
         autoplay: boolean;
@@ -23,7 +21,6 @@ function Home() {
 
     const settings: Settings = {
         dots: true,
-        lazyLoad: true,
         infinite: true,
         speed: 1500,
         slidesToShow: 1,
