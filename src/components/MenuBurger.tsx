@@ -29,9 +29,9 @@ function MenuBurger() {
                         <NavLink to="/">
                             <img src="../../Instagram_blanc.webp" alt="Logo Instagram" />
                         </NavLink>
-                        <NavLink to="/">
+                        <a href="https://www.facebook.com/profile.php?id=61566530948092" target="_blank" rel="noopener noreferrer">
                             <img src="../../Facebook_blanc.webp" alt="Logo Facebook" />
-                        </NavLink>
+                        </a>
                     </section>
                     <p className="topnav_copyright_desktop">Copyright © 2024 - ASTHEP</p>
                 </div>
