@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
+.shop_frame {
+  overflow: auto;
+}
+
 .ticketing_title {
   text-align: center;
   font-size: 30px;
@@ -70,10 +74,11 @@
     width: 100%;
     position: absolute;
     top: 20px;
+    overflow: auto;
   }
 
   section#shop {
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     height: 780px;
   }
 }
