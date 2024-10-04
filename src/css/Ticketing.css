@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
-.shop_frame {
-  overflow: auto;
-}
 
 .ticketing_title {
   text-align: center;
@@ -12,14 +9,14 @@
   border: solid 10px white;
 }
 
-@media screen and (min-width: 992px) and (max-width: 1024px){
-  .ticketing_container{
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+  .ticketing_container {
     width: 82dvw;
     position: absolute;
     right: 0;
   }
-  
-  .ticketing_title{
+
+  .ticketing_title {
     width: 82dvw;
     position: fixed;
     z-index: 1;
@@ -33,14 +30,14 @@
   }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1200px){
-  .ticketing_container{
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .ticketing_container {
     width: 82dvw;
     position: absolute;
     right: 0;
   }
-  
-  .ticketing_title{
+
+  .ticketing_title {
     width: 82dvw;
     position: fixed;
     z-index: 1;
@@ -59,7 +56,6 @@
     width: 88dvw;
     position: absolute;
     right: 0;
-
   }
 
   .ticketing_title {
@@ -67,18 +63,20 @@
     position: fixed;
     right: -1.5px;
     z-index: 1;
-    border: solid 10px white;
+    border-top: 10px solid white;
+    border-right: 10px solid white;
+    border-left: 10px solid white;
+    border-bottom: none;
   }
 
   .ticketing_reservation {
     width: 100%;
+    max-height: 100%;
     position: absolute;
-    top: 20px;
-    overflow: auto;
+    top: 49px;
   }
 
-  section#shop {
-    /* overflow-y: scroll; */
-    height: 780px;
+  .shop_frame {
+    height: 94dvh;
   }
 }
