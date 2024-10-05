@@ -1,5 +1,7 @@
 import { Outlet } from 'react-router-dom';
 import { SpeedInsights } from "@vercel/speed-insights/react"
+import { Analytics } from "@vercel/analytics/react"
+
 import MenuBurger from './components/MenuBurger.tsx';
 
 import './App.css'
@@ -13,6 +15,7 @@ function App() {
       </nav>
       <Outlet />
       <SpeedInsights />
+      <Analytics />
     </main>
   )
 }
