@@ -31,8 +31,9 @@ function Home() {
     }
     return (
         <section className="home_container">
+            <h1 className="visually-hidden">Bienvenue sur le site de la troupe de théâtre de La Poitevinière</h1>
             <Slider {...settings} className="home_slider">
-                <article className="slide_container slide_container_1">
+                <section className="slide_container slide_container_1">
                     <div className="slide_text_container">
                         <h3 className="slide_title slide_title_1">SAISON 2024 OUVERTE !</h3>
                         <div className="slide_text_descriptif">
@@ -48,7 +49,7 @@ function Home() {
                     </div>
                     <img className="slide_image_1 slide_image_desktop" src="../../Affiche_web_2.webp" alt="Affiche de la pièce de théâtre 'Une fleur sur les ruines'" />
                     <img className="slide_image_1 slide_image_mobile" src="../../Affiche_web_mobile.webp" alt="Affiche de la pièce de théâtre 'Une fleur sur les ruines'" />
-                </article>
+                </section>
                 <article className="slide_container slide_container_2">
                     <div className="slide_text_container">
                         <h3 className="slide_title slide_title_2">L'ASTHEP SUR LE WEB !</h3>

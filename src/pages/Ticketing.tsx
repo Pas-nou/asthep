@@ -17,7 +17,6 @@ function Ticketing() {
                     data-max-width="90%"
                     height="885"
                     data-scrolling="yes"
-                    scrolling="yes"
                     data-id="theatre-poiteviniere"
                     data-resize="1"
                     frameBorder="0"
