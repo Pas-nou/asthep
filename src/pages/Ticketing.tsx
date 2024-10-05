@@ -5,7 +5,7 @@ function Ticketing() {
 
     return (
         <div className="ticketing_container">
-            <h2 className='ticketing_title'>Votre réservation</h2>
+            <h1 className='ticketing_title'>Votre réservation</h1>
             <section className='ticketing_reservation'>
                     <iframe
                     title="Vente de billet en ligne"
