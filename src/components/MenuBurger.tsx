@@ -19,13 +19,13 @@ function MenuBurger() {
 
                 {/* Home link */}
                 <div className="topnav_info_desktop">
-                    <a href="https://www.youtube.com/@Asthep_theatre" target="_blank" rel="noopener noreferrer">
+                    <NavLink to="/">
                         <img src="../../Logo_asthep.webp" alt="Logo ASTHEP" className="topnav_img" />
-                    </a>
+                    </NavLink>
                     <section className="topnav_social_desktop">
-                        <NavLink to="/">
+                        <a href="https://www.youtube.com/@Asthep_theatre" target="_blank" rel="noopener noreferrer">
                             <img src="../../Youtube_blanc.webp" alt="Logo youtube" />
-                        </NavLink>
+                        </a>
                         <a href="https://www.instagram.com/asthep_theatre/" target="_blank" rel="noopener noreferrer">
                             <img src="../../Instagram_blanc.webp" alt="Logo Instagram" />
                         </a>
