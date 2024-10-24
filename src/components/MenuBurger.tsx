@@ -26,9 +26,9 @@ function MenuBurger() {
                         <NavLink to="/">
                             <img src="../../Youtube_blanc.webp" alt="Logo youtube" />
                         </NavLink>
-                        <NavLink to="/">
+                        <a href="https://www.instagram.com/asthep_theatre/" target="_blank" rel="noopener noreferrer">
                             <img src="../../Instagram_blanc.webp" alt="Logo Instagram" />
-                        </NavLink>
+                        </a>
                         <a href="https://www.facebook.com/profile.php?id=61566530948092" target="_blank" rel="noopener noreferrer">
                             <img src="../../Facebook_blanc.webp" alt="Logo Facebook" />
                         </a>
