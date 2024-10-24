@@ -19,9 +19,9 @@ function MenuBurger() {
 
                 {/* Home link */}
                 <div className="topnav_info_desktop">
-                    <NavLink to="/">
+                    <a href="https://www.youtube.com/@Asthep_theatre" target="_blank" rel="noopener noreferrer">
                         <img src="../../Logo_asthep.webp" alt="Logo ASTHEP" className="topnav_img" />
-                    </NavLink>
+                    </a>
                     <section className="topnav_social_desktop">
                         <NavLink to="/">
                             <img src="../../Youtube_blanc.webp" alt="Logo youtube" />
