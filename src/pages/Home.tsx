@@ -25,7 +25,7 @@ function Home() {
         speed: 1500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        // autoplay: true,
+        autoplay: true,
         autoplaySpeed: 4000,
         pauseOnHover: true,
     }
@@ -54,13 +54,13 @@ function Home() {
                     <div className="slide_text_container">
                         <h3 className="slide_title slide_title_2">L'ASTHEP SUR LE WEB !</h3>
                         <div className="slide_text_descriptif">
-                            <p className="slide_text slide_text_2">L'ASTHEP lance son site web !</p>
-                            <p className="slide_text slide_text_2">Après le rafraîchissement de sa salle et de son logo,</p>
-                            <p className="slide_text slide_text_2">la troupe se met au goût du jour</p>
-                            <p className="slide_text slide_text_2">et vous propose un système de billetterie en ligne.</p>
-                            <p className="slide_text slide_text_2">Vous pourrez également retrouver notre actualité,</p>
-                            <p className="slide_text slide_text_2">l'historique des pièces jouées,</p>
-                            <p className="slide_text slide_text_2">et plein d'autres choses à venir ! </p>
+                            <p className="slide_text slide_text_2">Vous voulez être au courant de nos dernières actualités ?</p>
+                            <p className="slide_text slide_text_2">Retrouvez-nous sur :</p>
+                            <p className="slide_text slide_text_2">- Instagram</p>
+                            <p className="slide_text slide_text_2">- Facebook</p>
+                            <p className="slide_text slide_text_2">Vous pourrez également retrouver très prochainement,</p>
+                            <p className="slide_text slide_text_2">l'historique des pièces jouées dans notre future rubrique "Historique"</p>
+
                         </div>
                     </div>
                     <img className="slide_image_2" src="../../Logo_asthep.webp" alt="Logo de la troupe de l'ASTHEP" />
