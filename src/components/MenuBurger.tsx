@@ -33,7 +33,7 @@ function MenuBurger() {
                             <img src="../../Facebook_blanc.webp" alt="Logo Facebook" />
                         </a>
                     </section>
-                    <p className="topnav_copyright_desktop">Copyright © 2024 - ASTHEP</p>
+                    <p className="topnav_copyright_desktop">Copyright © 2025 - ASTHEP</p>
                 </div>
 
                 {/* Burger icone */}
@@ -79,7 +79,7 @@ function MenuBurger() {
                                 <img src="../../Facebook.png" alt="Logo Facebook" />
                             </NavLink>
                         </section>
-                        <p className="topnav_copyright_mobile">Copyright © 2024 - ASTHEP</p>
+                        <p className="topnav_copyright_mobile">Copyright © 2025 - ASTHEP</p>
                     </div>
                 </nav>
             </section>
