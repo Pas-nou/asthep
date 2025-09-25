@@ -90,20 +90,22 @@
     /* * First Slide */
 
     .slide_container_1 {
-        background-color: #264D76;
+        background-color: #f6ecd5;
     }
 
     .slide_title_1,
     .slide_text_1 {
-        background-color: #80AFD9;
+        background-color: #dac2a8;
     }
 
     .slide_image_1 {
-        width: 44%
+        width: 44%;
+        height: 50%;
     }
-
+    
     .slide_image_desktop {
         display: block;
+        margin-top: 15dvh;
     }
 
     .slide_image_mobile {
@@ -111,7 +113,7 @@
     }
 
     .slide_button_1 {
-        background-color: #E76E25;
+        background-color: #bc7946;
         width: fit-content;
         font-size: 24px;
         font-family: "Righteous", sans-serif;

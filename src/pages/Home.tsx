@@ -25,7 +25,7 @@ function Home() {
         speed: 1500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true,
+        // autoplay: true,
         autoplaySpeed: 4000,
         pauseOnHover: true,
     }
@@ -35,20 +35,20 @@ function Home() {
             <Slider {...settings} className="home_slider">
                 <section className="slide_container slide_container_1">
                     <div className="slide_text_container">
-                        <h3 className="slide_title slide_title_1">SAISON 2024 OUVERTE !</h3>
+                        <h3 className="slide_title slide_title_1">SAISON 2025 OUVERTE !</h3>
                         <div className="slide_text_descriptif">
-                            <p className="slide_text slide_text_1">l'ASTHEP vous présente une pièce</p>
-                            <p className="slide_text slide_text_1">écrite et mise en scène par</p>
-                            <p className="slide_text slide_text_1">Olivier Jollivet.</p>
+                            <p className="slide_text slide_text_1">l'ASTHEP vous présente <b>Panique au Plazza</b></p>
+                            <p className="slide_text slide_text_1">de <b>Ray Cooney</b></p>
+                            <p className="slide_text slide_text_1">et mis en scène par <b>Olivier Jollivet</b>.</p>
                             <p className="slide_text slide_text_1">Représentations les :</p>
-                            <p className="slide_text slide_text_1">09 | 10 | 15 | 16 | 17 | 19</p>
-                            <p className="slide_text slide_text_1">22 | 23 | 24 | 29 | 30 </p>
+                            <p className="slide_text slide_text_1"><b>08</b> | <b>09</b> | <b>11</b> | <b>15</b> | <b>16</b> </p>
+                            <p className="slide_text slide_text_1"><b>22</b> | <b>23</b> | <b>25</b> | <b>28</b> | <b>29</b> </p>
                             <p className="slide_text slide_text_1">Novembre.</p>
                         </div>
                         <NavLink className="slide_button_1" to="/billetterie">Réservez vos places</NavLink>
                     </div>
-                    <img className="slide_image_1 slide_image_desktop" src="../../Affiche_web_2.webp" alt="Affiche de la pièce de théâtre 'Une fleur sur les ruines'" />
-                    <img className="slide_image_1 slide_image_mobile" src="../../Affiche_web_mobile.webp" alt="Affiche de la pièce de théâtre 'Une fleur sur les ruines'" />
+                    <img className="slide_image_1 slide_image_desktop" src="../../piece_2025.webp" alt="Affiche de la pièce de théâtre 'Une fleur sur les ruines'" />
+                    <img className="slide_image_1 slide_image_mobile" src="../../piece_2025.webp" alt="Affiche de la pièce de théâtre 'Une fleur sur les ruines'" />
                 </section>
                 <article className="slide_container slide_container_2">
                     <div className="slide_text_container">
