@@ -11,13 +11,13 @@ function Ticketing() {
                     title="Vente de billet en ligne"
                     className='shop_frame'
                     rel='noopener noreferrer'
-                    src="https://www.billetweb.fr/shop.php?event=theatre-poiteviniere"
-                    data-src="https://www.billetweb.fr/shop.php?event=theatre-poiteviniere"
+                    src="https://www.billetweb.fr/shop.php?event=piece-2025"
+                    data-src="https://www.billetweb.fr/shop.php?event=piece-2025"
                     width="100%"
                     data-max-width="90%"
                     height="885"
                     data-scrolling="yes"
-                    data-id="theatre-poiteviniere"
+                    data-id="piece-2025"
                     data-resize="1"
                     frameBorder="0"
                  />
@@ -27,3 +27,5 @@ function Ticketing() {
 };
 
 export default Ticketing;
+
+
