@@ -90,12 +90,12 @@
     /* * First Slide */
 
     .slide_container_1 {
-        background-color: #f6ecd5;
+        background-color: #2f2f2f;
     }
 
     .slide_title_1,
     .slide_text_1 {
-        background-color: #dac2a8;
+        background-color: #A7D389;
     }
 
     .slide_image_1 {
@@ -105,7 +105,8 @@
     
     .slide_image_desktop {
         display: block;
-        margin-top: 15dvh;
+        margin-top: 3.5dvh;
+        width: 35%;
     }
 
     .slide_image_mobile {
@@ -113,7 +114,7 @@
     }
 
     .slide_button_1 {
-        background-color: #bc7946;
+        background-color: #CAB6EB;
         width: fit-content;
         font-size: 24px;
         font-family: "Righteous", sans-serif;
@@ -125,7 +126,7 @@
     }
 
     .slide_button_1:hover {
-        background-color: #E5B223;
+        background-color: #966ed7;
         color: black;
     }
 

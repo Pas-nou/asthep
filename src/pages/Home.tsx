@@ -35,20 +35,20 @@ function Home() {
             <Slider {...settings} className="home_slider">
                 <section className="slide_container slide_container_1">
                     <div className="slide_text_container">
-                        <h3 className="slide_title slide_title_1">SAISON 2025 OUVERTE !</h3>
+                        <h3 className="slide_title slide_title_1">Les jeunes en piste !</h3>
                         <div className="slide_text_descriptif">
-                            <p className="slide_text slide_text_1">l'ASTHEP vous présente <b>Panique au Plazza</b></p>
-                            <p className="slide_text slide_text_1">de <b>Ray Cooney</b></p>
-                            <p className="slide_text slide_text_1">et mis en scène par <b>Olivier Jollivet</b>.</p>
+                            <p className="slide_text slide_text_1">l'ASTHEP et Y a du Pin sur les planches</p>
+                            <p className="slide_text slide_text_1">vous présentent</p>
+                            <p className="slide_text slide_text_1">le spectacle des jeunes & ados.</p>
                             <p className="slide_text slide_text_1">Représentations les :</p>
-                            <p className="slide_text slide_text_1"><b>08</b> | <b>09</b> | <b>11</b> | <b>15</b> | <b>16</b> </p>
-                            <p className="slide_text slide_text_1"><b>22</b> | <b>23</b> | <b>25</b> | <b>28</b> | <b>29</b> </p>
-                            <p className="slide_text slide_text_1">Novembre.</p>
+                            <p className="slide_text slide_text_1"><b>10</b> | <b>11</b> | <b>12</b> | <b>18</b> | <b>19</b></p>
+                            <p className="slide_text slide_text_1">Avril.</p>
+                            <p className="slide_text slide_text_1">Entrée gratuite !</p>
                         </div>
                         <NavLink className="slide_button_1" to="/billetterie">Réservez vos places</NavLink>
                     </div>
-                    <img className="slide_image_1 slide_image_desktop" src="../../piece_2025.webp" alt="Affiche de la pièce de théâtre 'Une fleur sur les ruines'" />
-                    <img className="slide_image_1 slide_image_mobile" src="../../piece_2025.webp" alt="Affiche de la pièce de théâtre 'Une fleur sur les ruines'" />
+                    <img className="slide_image_1 slide_image_desktop" src="../../jeunes2026.webp" alt="Affiche du spectacle des jeunes/ados" />
+                    <img className="slide_image_1 slide_image_mobile" src="../../jeunes2026.webp" alt="Affiche du spectacle des jeunes/ados" />
                 </section>
                 <article className="slide_container slide_container_2">
                     <div className="slide_text_container">
